@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ⚡ EcoCharge – Green EV Charging Landing Page
 
-## Getting Started
+A clean, responsive, and animated landing page for **EcoCharge**, a green-tech startup focused on delivering solar-powered EV charging solutions across Pakistan. Built using the latest **Next.js (App Router)**, **Tailwind CSS**, and **Framer Motion** for beautiful user interactions and performance.
 
-First, run the development server:
+> 🌐 **Live Preview:**  
+👉 https://echocharge-landing-page-dcy.vercel.app/
+
+---
+
+## 📌 Features
+
+- ⚡ Built with **Next.js 15 (App Router)** & **JavaScript**
+- 🎨 Styled using **Tailwind CSS** (modern utility-first design)
+- 🎞️ Animated components with **Framer Motion**
+- 🔋 Sustainable and eco-friendly design aesthetic
+- 📷 Stock images from Unsplash (fully royalty-free)
+- 📄 SEO-ready with `next/head`
+- 📥 Lead capture form (static handler ready for integration)
+- 🧭 Custom `404` and animated `loading` screen
+- 📱 Fully responsive on mobile, tablet, and desktop
+- 🧱 Modular and scalable folder structure
+
+---
+
+## 🧱 Tech Stack
+
+| Technology     | Purpose                            |
+|----------------|------------------------------------|
+| Next.js        | React Framework & Routing (App Router) |
+| JavaScript     | Programming Language               |
+| Tailwind CSS   | Utility-first CSS Framework        |
+| Framer Motion  | Smooth UI animations               |
+| Unsplash       | Free stock images                  |
+| Vercel         | Deployment platform                |
+
+---
+
+## 📁 Project Structure
+
+ecocharge-landing-page/
+│
+├── app/ # Next.js App Router pages
+│ ├── page.js # Main landing page
+│ ├── not-found.js # Custom 404 page
+│ ├── loading.js # Animated loading screen
+│
+├── components/ # Reusable UI components
+│ └── NotFoundClient.js # 404 animated UI
+│
+├── public/assets/ # Logo, images, icons
+│
+├── styles/ # Global styles & Tailwind setup
+│
+├── tailwind.config.js # Tailwind configuration
+├── next.config.js # Next.js configuration
+├── README.md # Project documentation
+└── package.json # Project metadata
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Node.js 18+
+- npm (or yarn/pnpm)
+
+### 📥 Installation
 
 ```bash
+git clone https://github.com/your-username/ecocharge-landing-page.git
+cd ecocharge-landing-page
+npm install
+
+🧪 Run Locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Visit: http://localhost:3000
