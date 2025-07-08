@@ -39,22 +39,23 @@ A clean, responsive, and animated landing page for **EcoCharge**, a green-tech s
 
 ecocharge-landing-page/
 │
-├── app/ # Next.js App Router pages
-│ ├── page.js # Main landing page
-│ ├── not-found.js # Custom 404 page
-│ ├── loading.js # Animated loading screen
+├── app/                   # Next.js App Router pages
+│   ├── page.js            # Main landing page
+│   ├── not-found.js       # Custom 404 page
+│   └── loading.js         # Animated loading screen
 │
-├── components/ # Reusable UI components
-│ └── NotFoundClient.js # 404 animated UI
+├── components/            # Reusable UI components
+│   └── NotFoundClient.js  # 404 animated UI
 │
-├── public/assets/ # Logo, images, icons
+├── public/
+│   └── assets/            # Logo, images, icons
 │
-├── styles/ # Global styles & Tailwind setup
+├── styles/                # Global styles & Tailwind setup
 │
-├── tailwind.config.js # Tailwind configuration
-├── next.config.js # Next.js configuration
-├── README.md # Project documentation
-└── package.json # Project metadata
+├── tailwind.config.js     # Tailwind configuration
+├── next.config.js         # Next.js configuration
+├── README.md              # Project documentation
+└── package.json           # Project metadata
 
 ---
 
