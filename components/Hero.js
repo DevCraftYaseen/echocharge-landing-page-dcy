@@ -37,7 +37,11 @@ const floatingAnimation = {
 
 export default function Hero() {
   return (
+<<<<<<< HEAD
     <div className="relative isolate px-6 py-20 lg:py-32 lg:px-8 overflow-hidden flex items-center">
+=======
+    <div className="relative isolate px-6 py-6 lg:px-8 overflow-hidden flex items-center">
+>>>>>>> 7254a058e59ed323d803749fa2a5ac7078a39202
       {/* Animated background gradients */}
       <motion.div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
