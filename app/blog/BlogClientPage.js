@@ -66,7 +66,7 @@ export default function BlogClientPage() {
   return (
     <motion.div className="bg-white" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
       {/* Hero section */}
-      <div className="relative isolate px-6 lg:px-8 overflow-hidden min-h-screen flex items-center">
+      <div className="relative isolate px-6 lg:px-8 overflow-hidden py-20 lg:py-32 flex items-center">
         <motion.div
           className="absolute inset-0 -z-10"
           initial={{ scale: 1.1, opacity: 0 }}
@@ -117,12 +117,12 @@ export default function BlogClientPage() {
               >
                 <div className="relative w-full">
                   <img
-                    src={post.imageUrl || "/placeholder.svg"}
+                    src={post.imageUrl || " "}
                     alt={post.title}
                     className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
-                    onError={(e) => {
-                      e.target.src = "/placeholder.svg?height=400&width=600"
-                    }}
+                    // onError={(e) => {
+                    //   e.target.src = "/placeholder.svg?height=400&width=600"
+                    // }}
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
@@ -156,9 +156,9 @@ export default function BlogClientPage() {
                       src={post.author.imageUrl || "/placeholder.svg"}
                       alt={post.author.name}
                       className="h-10 w-10 rounded-full bg-gray-100"
-                      onError={(e) => {
-                        e.target.src = "/placeholder.svg?height=40&width=40"
-                      }}
+                      // onError={(e) => {
+                      //   e.target.src = "/placeholder.svg?height=40&width=40"
+                      // }}
                     />
                     <div className="text-sm leading-6">
                       <p className="font-semibold text-gray-900">

@@ -38,7 +38,7 @@ export default function ContactPageClient() {
   return (
     <motion.div className="bg-white" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}>
       {/* Hero section */}
-      <div className="relative isolate px-6 lg:px-8 overflow-hidden min-h-screen flex items-center">
+      <div className="relative isolate px-6 lg:px-8 overflow-hidden py-20 lg:py-32 flex items-center">
         <motion.div
           className="absolute inset-0 -z-10"
           initial={{ scale: 1.1, opacity: 0 }}
